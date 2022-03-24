@@ -27,6 +27,10 @@ Users should be able to:
 - View the optimal layout for the section depending on their device's screen size
 
 ### Screenshot
+![](./screenshots/screenshot-desktop.png)
+![](./screenshots/screenshot-mobile1.png)
+![](./screenshots/screenshot-mobile2.png)
+
 
 
 ### Links
