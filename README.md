@@ -16,7 +16,6 @@ This is a solution to the Social proof section challenge on Frontend Mentor (htt
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -39,67 +38,48 @@ Users should be able to:
 - Live Site URL: https://zitsko.github.io/social-proof-section/
 
 ## My process
+I started off with the markup grouping elements with div and lists  for  applying flexbox and grid in css. Then i created variables for colors,fonts and borders in the root element.My approach was mobile first using grid combined with flexbox and then the desktop design using a media query.
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS custom properties(variables)
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
+ I have learned: 
+ - important units like rem,em for responsiveness and a new unit like ch for words and sentences
+ - declaring variables in the root element 
+ - using CSS Grid and Flexbox although i have a lot to learn still
+ - using aria labels for accesibility reasons(in the code below the stars are hidden for the screen readers)
+ ```html
+<div class="stars" aria-hidden="true">
 ```
+ - The > * + * selector for selecting the elements after the first element and giving margins with consistency. The code below is giving margin-top 1 rem on the second and the third li element.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.flow-content > * + *{
+margin-top: 1rem;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+CSS Grid and Flexbox and SASS are  areas i want to focus for building responsive layouts. Also Javascript is my next area of web development and how to manipulate the markup and the styles with DOM so i can can become a front end wed development. In the future i want to learn a Javascript library like React and how to interact websites with APIs. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Kevin Powell](https://youtu.be/K27WULzr2P8?list=PL3zBJqt8nv1Juf9j6kCt-uWoOmmbyEumO) - Kevin Powell is an excellent teacher for learning css. His approach in this challenge helped me a lot and teached me basic concepts of css. Additionally, Kevin is using SASS in his solution something i did not use in mine  but seeing how sass can organize your code now i want to learn SASS!
+- [Scrimba](https://scrimba.com/) - Scrimba is an amazing platform for learning frontend web development. I am currently learning by their FrontEnd Developer Carrer Path
+- [MDN](https://developer.mozilla.org/en-US/) - MDN is a great resource for frontend web development.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
+- Frontend Mentor - [@Kostas](https://www.frontendmentor.io/profile/zitsko)
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
